@@ -1,0 +1,46 @@
+/* Estilos personalizados */
+body {
+  background-color: rgb(26, 27, 26);
+  color: white;
+}
+
+.nike {
+    color: black;
+    font-size: 20px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 90%;
+  height: 300px; /* Aseguramos que todas las imágenes tengan la misma altura */
+  object-fit: cover; /* Asegura que las imágenes se mantengan proporcionales y cubran el espacio */
+  display: block;
+}
+
+/* Estilo para el título sobre la imagen */
+.card-title-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(240, 182, 182, 0.7); /* Fondo semitransparente para que el título resalte */
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 10; /* Asegura que el título esté sobre la imagen */
+}
+.titulo-gradiente {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #e0dcd4, #e74c3c); /* Gradiente de naranja a rojo */
+  -webkit-background-clip: text; /* Muestra solo el color del fondo en el texto */
+  color: transparent; /* Hace el color del texto transparente para mostrar el gradiente */
+}
+
+h6 {
+  color: black;
+}
